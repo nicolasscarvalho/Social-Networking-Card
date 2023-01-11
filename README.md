@@ -15,10 +15,12 @@ Devido a baixa possibilidade de organizar grandes quantidades de links em descri
 
 # Features:
 
+- [x] Foto da pessoa
+- [x] Profissões
+- [x] Redes sociais e formas de contato
+- [x] Movimentação do cartão ao passar o mouse por cima
+- [ ] Efeito de seleção ao passar o mouse por cima dos links das redes sociais
 - [ ] Background em formato de vídeo 
-- [ ] Foto da pessoa
-- [ ] Profissões
-- [ ] Redes sociais e formas de contato
 
 # Tecnologias e ferramentas utilizadas:
 
