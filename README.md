@@ -11,7 +11,7 @@
 Devido a baixa possibilidade de organizar grandes quantidades de links em descrições de algumas redes sociais, eis uma página web que aglutina diversos meios de contato em um só lugar a fim de facilitar a divulgação dos mesmos
 
 - [Protótipo Low-Fi](https://www.figma.com/file/35z4DKjPVlGuYNm5SYEcSG/LF-Social-Networking-Card?node-id=0%3A1&t=5GlAzA0Qvw3MhofE-1)
-- [Protótipo Hi-Fi]()
+- [Protótipo Hi-Fi](https://www.figma.com/file/4NTQrdrK9OEROGab8dGA3n/HF-Social-Networking-Card?node-id=0%3A1&t=aEjNCHfd8KNizCxH-1)
 
 # Features:
 

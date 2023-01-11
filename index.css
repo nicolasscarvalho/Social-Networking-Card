@@ -1,4 +1,172 @@
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+    transition-duration: 1s;
+
+    font-family: 'Raleway', sans-serif;
+    color: #3CD13D;
+}
+
+:root {
+    --d-width-card: 350px;
+    --d-height-card: 500px;
+    --d-radius-profile-img: 150px;
+    --d-radius-nav-img: 50px;
+}
+
+body {
     margin: 0px;
     padding: 0px;
+
+    background-color: #451531;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+    .card {
+        width: var(--d-width-card);
+        height: var(--d-height-card);
+    }
+}
+
+#card {
+    width: calc(var(--d-width-card) + 30px);
+    height: calc(var(--d-height-card) + 30px);
+}
+
+.card {
+    border: 5px solid;
+    border-radius: 20px;
+
+    position: absolute;
+}
+
+#card-edge {
+    border-color: #3CD13D;
+    box-shadow: 0px 0px 15px 0px #3CD13D;
+
+    margin-top: 30px;
+}
+
+#card-content {
+    background-color: #330F24;
+    border-color: #883341;
+    box-shadow: 0px 0px 15px 0px #883341;
+
+    margin-left: 30px;
+    padding: 30px;
+}
+
+
+
+
+
+#profile-image {
+    width: var(--d-radius-profile-img);
+    height: var(--d-radius-profile-img);
+
+    border: 5px solid #883341;
+    box-shadow: 0px 0px 15px 0px #883341;
+    border-radius: 50%;
+
+    background-image: url('./media/user-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+}
+
+#card-content section {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-id {
+    justify-content: space-between;
+}
+
+#profile-skills {
+   justify-content: center;
+}
+
+#profile-skills ul {
+    margin-top: 40px;
+}
+
+#profile-skills li {
+    width: var(--d-radius-profile-img);
+    text-align: justify;
+    margin-bottom: 17px;
+}
+
+
+
+
+
+nav {
+    width: fit-content;
+}
+
+nav section {
+    display: flex;
+    align-items: center;
+}
+
+nav section span {
+    width: var(--d-radius-nav-img);
+    height: var(--d-radius-nav-img);
+
+    border: 5px solid #3CD13D;   
+    border-radius: 50%;
+
+    margin-right: 20px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: calc(var(--d-radius-nav-img) / 2.5);
+}
+
+
+
+
+
+#github-image {
+    background-image: url("./media/github.png");
+}
+
+#figma-image {
+    background-image: url("./media/figma.png");
+}
+
+#instagram-image {
+    background-image: url("./media/instagram.png");
+}
+
+#facebook-image {
+    background-image: url("./media/facebook.png");
 }
