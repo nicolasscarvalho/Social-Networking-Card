@@ -11,6 +11,7 @@
     text-decoration: none;
 }
 
+
 body {
     margin: 0px;
     padding: 0px;
@@ -22,7 +23,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 
 
 ul {
@@ -72,6 +72,8 @@ li {
         height: 100vh;
     }
 }
+
+
 
 
 
@@ -210,8 +212,3 @@ nav section span {
 #facebook-image {
     background-image: url("./media/facebook.png");
 }
-
-
-
-
-
